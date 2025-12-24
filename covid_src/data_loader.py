@@ -5,9 +5,12 @@
 
 
 # import pandas as pd
-from src.config import DATA_URL
+from covid_src.config import Configuration
 
-print(DATA_URL)
+
+
+
+print(Configuration.DATA_URL)
 
 
 
